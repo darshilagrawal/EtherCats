@@ -1,0 +1,171 @@
+
+body{
+  font-family: Montserrat;
+  text-align: center;
+  }
+
+h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+    }
+p{
+    color: white;
+    }
+
+/* Common */
+
+.big-heading{
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+.boldText{
+  font-weight: bold;
+}
+
+.centering{
+  margin: auto;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.front-subheading{
+  color: yellow;
+  font-size: 1.3rem;
+}
+
+
+
+  /* Section */
+  .colored-section{
+    background-color:#152A28;
+  }
+
+
+
+  /* Navbar */
+.navbar-brand{
+  font-size: 2.5rem ;
+}
+.nav-item{
+  padding: 0 18px;
+  font-size: 25px;
+}
+.navbar{
+  padding:0 0 3.5rem;
+}
+
+
+
+
+/* Title */
+#title{
+    text-align: left;
+}
+#title .container-fluid{
+  padding-top: 3%;
+}
+.imageMoved{
+  position: absolute;
+  left: 320px;
+}
+
+.imageSized{
+  width: 300px;
+  height: 300px;
+  padding: 0;
+
+}
+
+
+
+/* Features */
+
+#features{
+  position: relative;
+  }
+.featureDescription{
+  color:#216A65;
+}
+
+.feature-image{
+  width: 50px;
+  height: 50px;
+}
+
+/* Stats */
+
+#stats{
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+.center-flex{
+  display:flex;
+  align-content: center;
+  align-items: center;
+}
+
+.stats-heading{
+  color:#C4AA43;
+}
+
+.stats-text{
+  color:#309791;
+  font-weight: bold;
+
+}
+
+
+
+/* Pricing */
+.special{
+  color: black;
+}
+.price-text{
+  font-weight: bold;
+  font-size: 1rem;
+  color:#216A65;
+}
+.token-text{
+  color:#216A65;
+}
+#pricing{
+  padding: 100px;
+}
+.image-wrapper{
+  padding-bottom: 1rem;
+}
+.truncatedesc {
+    width: 100%;
+    overflow: scroll;
+    text-overflow: ellipsis;
+    height: 5.5em;
+    margin-top: -7px;
+}
+
+.pricing-column{
+padding: 3% 2%;
+}
+
+ /* Call To Action */
+
+.cta-button{
+  margin: 1rem;
+}
+
+.footer-button{
+  padding: 0 0.9rem;
+}
+
+@media (max-width:988px){
+  #title{
+    text-align: center;
+  }
+  .imageSized{
+  position: static;
+  }
+
+}
